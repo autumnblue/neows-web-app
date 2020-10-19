@@ -1,0 +1,29 @@
+// import ant design style
+@import "~antd/dist/antd.css";
+@import "~antd/dist/antd.min.css";
+
+// import common styles
+@import "./common/colors";
+@import "./common/variables";
+@import "./common/fonts";
+
+@import "../components/common/wrapper/mainLoader/style";
+@import "../components/common/pagination/style";
+
+// import base style
+@import "./base/base";
+
+// import header style
+@import "../layouts/header/style";
+
+// import footer style
+@import "../layouts/footer/style";
+
+// import login style
+@import "../components/login/style";
+
+// import sign up style
+@import "../components/signUp/style";
+
+// import browse style
+@import "../components/browse/style";
